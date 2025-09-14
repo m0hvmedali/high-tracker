@@ -4,8 +4,15 @@ import i18n from '@/app/i18n'
 import { useRTL } from '@/hooks/useRTL'
 import { useThemeTokens } from '@/hooks/useThemeTokens'
 
+import { AuthListener } from './AuthListener'
+
 export function AppProviders({ children }: PropsWithChildren) {
   useRTL()
   useThemeTokens()
-  return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>
+  return (
+    <I18nextProvider i18n={i18n}>
+      <AuthListener />
+      {children}
+    </I18nextProvider>
+  )
 }
