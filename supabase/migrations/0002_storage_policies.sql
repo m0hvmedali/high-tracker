@@ -1,5 +1,5 @@
 -- Create media bucket (run once)
-insert into storage.buckets (id, name, public) values ('media','media', true)
+insert into storage.buckets (id, public) values ('media', true)
   on conflict (id) do nothing;
 
 -- Policies on storage.objects
