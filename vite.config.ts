@@ -21,9 +21,7 @@ function injectBuiltByScoutPlugin() {
 // https://vite.dev/config/
 export default defineConfig({
   
-  build: {
-    target: "esnext", // أو "es2022"
-  }
+ 
   plugins: [react(), tailwindcss(), VitePWA({
       registerType: 'autoUpdate',
       manifest: {
@@ -48,4 +46,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+   build: {
+    target: "esnext", // أو "es2022"
+  }
 });
