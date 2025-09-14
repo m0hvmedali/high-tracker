@@ -1,0 +1,84 @@
+:root,
+[data-theme="light"] {
+  --primary: #059669;
+  --primary-foreground: #ffffff;
+  --secondary: #D97706;
+  --secondary-foreground: #0a0a0a;
+  --accent: #0891B2;
+  --accent-foreground: #ffffff;
+
+  --background: #fafafa;
+  --foreground: #0a0a0a;
+
+  --surface: #f4f4f5; /* zinc-100 */
+  --surface-contrast: #09090b; /* zinc-950 */
+
+  --muted: #e4e4e7; /* zinc-200 */
+  --muted-foreground: #3f3f46; /* zinc-600 */
+
+  --border: #e4e4e7; /* zinc-200 */
+  --input: #e4e4e7;
+  --ring: #059669;
+
+  --card: var(--surface);
+  --card-foreground: var(--foreground);
+  --popover: #ffffff;
+  --popover-foreground: var(--foreground);
+
+  --chart-1: #059669;
+  --chart-2: #D97706;
+  --chart-3: #0891B2;
+  --chart-4: #10B981; /* emerald-500 */
+  --chart-5: #F59E0B; /* amber-500 */
+}
+
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+
+  --surface: #18181b; /* zinc-900 */
+  --surface-contrast: #fafafa;
+
+  --muted: #27272a; /* zinc-800 */
+  --muted-foreground: #a1a1aa; /* zinc-400 */
+
+  --border: #27272a;
+  --input: #27272a;
+  --ring: #34d399; /* emerald-400 */
+
+  --primary: #10B981; /* emerald-500 slightly brighter in dark */
+  --primary-foreground: #052e2b;
+  --secondary: #F59E0B; /* amber-500 */
+  --secondary-foreground: #3f2200;
+  --accent: #06B6D4; /* cyan-500 */
+  --accent-foreground: #062a30;
+
+  --card: var(--surface);
+  --card-foreground: var(--foreground);
+  --popover: #18181b;
+  --popover-foreground: var(--foreground);
+
+  --chart-1: #10B981;
+  --chart-2: #F59E0B;
+  --chart-3: #06B6D4;
+  --chart-4: #84cc16; /* lime-500 */
+  --chart-5: #22d3ee; /* cyan-400 */
+}
+
+[data-theme="high-contrast"] {
+  --background: #000000;
+  --foreground: #ffffff;
+  --surface: #000000;
+  --surface-contrast: #ffffff;
+  --muted: #111111;
+  --muted-foreground: #e5e5e5;
+  --border: #ffffff;
+  --input: #ffffff;
+  --ring: #00ffd5;
+  --primary: #00ffb4;
+  --primary-foreground: #000000;
+  --secondary: #ffd000;
+  --secondary-foreground: #000000;
+  --accent: #00e5ff;
+  --accent-foreground: #000000;
+}

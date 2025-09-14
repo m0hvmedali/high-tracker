@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "subjects": [
+    {
+      "id": "sub-math-001",
+      "title": "الرياضيات — التفاضل والتكامل",
+      "description": "مادة شاملة لمفاهيم التفاضل والتكامل.",
+      "coverImage": "media://covers/math-calculus.png",
+      "tags": ["رياضيات", "تفاضل", "تكامل"],
+      "sections": [
+        {
+          "id": "sec-limits-001",
+          "title": "النهايات",
+          "description": "مقدمة في مفهوم النهايات وخواصها.",
+          "lessons": [
+            {
+              "id": "les-lim-def-001",
+              "title": "تعريف النهاية",
+              "description": "تعريف النهاية وطرق حسابها الأساسية.",
+              "tags": ["نهايات", "تعريف"],
+              "duration": 900,
+              "diagrams": [
+                {"id": "dg-1", "title": "منحنى النهاية", "src": "media://diagrams/limit-curve-1.png", "alt": "منحنى يوضح اقتراب الدالة من قيمة معينة"}
+              ],
+              "audios": [
+                {"id": "au-1", "title": "شرح صوتي — تعريف النهاية", "src": "media://audios/limits-intro.mp3"}
+              ],
+              "videos": [
+                {"id": "vid-1", "title": "فيديو 1 — مقدمة النهايات", "src": "media://videos/limits-intro.mp4", "captions": [{"lang": "ar", "label": "العربية", "src": "media://captions/limits-intro.vtt"}], "thumbnail": "media://thumbs/limits-intro.jpg"}
+              ],
+              "pdfs": [
+                {"id": "pdf-1", "title": "ملخص الدرس", "src": "media://pdfs/limits-summary.pdf", "thumbnail": "media://thumbs/limits-summary.png"}
+              ],
+              "transcript": "في هذا الدرس نتعرف على مفهوم النهاية...",
+              "quiz": [
+                {"id": "q1", "type": "single", "question": "ما هي النهاية عندما x يقترب من a؟", "options": ["قيمة الدالة عند a", "قيمة تقترب منها f(x)", "المشتقة الأولى"], "answer": [1], "explanation": "النهاية هي القيمة التي تقترب منها f(x) عند اقتراب x من a."}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
