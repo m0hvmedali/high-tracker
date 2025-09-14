@@ -37,6 +37,9 @@ export default defineConfig({
           { src: '/icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }
         ]
       }
+      build: {
+    target: "esnext", // أو "es2022"
+  }
     }), injectBuiltByScoutPlugin()],
   resolve: {
     alias: {
